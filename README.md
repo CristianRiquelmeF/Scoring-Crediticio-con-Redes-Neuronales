@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j_6VjKO0z8HyBtsvohtg0C8_HvARxTWN?authuser=2)
+
 # Sistema Inteligente de Scoring Crediticio con Redes Neuronales
 
 ## Resumen  
@@ -46,7 +48,8 @@ Se utilizó el **German Credit Data**, compuesto por 1000 observaciones con vari
 ### Ejemplo de gráficos incluidos en el notebook:
 
 #### Distribución de la variable objetivo
-![Distribución](distribucion_target.png)
+![Distribución]<img width="1294" height="795" alt="distribucion_target" src="https://github.com/user-attachments/assets/1ee33723-4c6d-4674-a3f3-1e7936d32f79" />
+
 
 #### Curvas de entrenamiento (Loss y Accuracy)
 ![Curva Loss](curva_loss.png)
