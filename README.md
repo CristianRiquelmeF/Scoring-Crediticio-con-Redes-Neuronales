@@ -76,8 +76,10 @@ Se utilizó **LIME** para entender qué variables influyen en la predicción de 
 Ejemplo: un cliente con **93% probabilidad de crédito bueno** se explica por factores como **historial de pagos** y **duración del crédito**.  
 
 ---
+
 ## Conclusión  
 El proyecto demuestra cómo aplicar **Deep Learning moderno (ResNet)** en problemas de **scoring crediticio**, mejorando rendimiento frente a modelos simples y ofreciendo explicaciones interpretables con LIME.  
+
 ---
 
 ## Cómo usar  
