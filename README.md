@@ -37,16 +37,14 @@ Se utilizó el **German Credit Data**, compuesto por 1000 observaciones con vari
    - `EarlyStopping`.  
    - `ReduceLROnPlateau`.  
 
-
-* **Lenguaje:** Python 3
-* **Librerías Principales:**
-    * TensorFlow / Keras
-    * Scikit-learn
-    * SHAP
-    * LIME
-    * Pandas
-    * NumPy
-    * Matplotlib / Seaborn
+## Librerías Principales**
+    - TensorFlow / Keras
+    - Scikit-learn
+    - SHAP
+    - LIME
+    - Pandas
+    - NumPy
+    - Matplotlib / Seaborn
 ---
 
 ## Resultados  
