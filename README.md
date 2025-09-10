@@ -48,7 +48,7 @@ Se utilizó el **German Credit Data**, compuesto por 1000 observaciones con vari
 ### Ejemplo de gráficos incluidos en el notebook:
 
 #### Distribución de la variable objetivo
-<img width="1000" height="300" alt="distribucion_target" src="https://github.com/user-attachments/assets/1ee33723-4c6d-4674-a3f3-1e7936d32f79" />
+<img width="500" height="300" alt="distribucion_target" src="https://github.com/user-attachments/assets/1ee33723-4c6d-4674-a3f3-1e7936d32f79" />
 
 
 #### Curvas de entrenamiento (Loss y Accuracy)
