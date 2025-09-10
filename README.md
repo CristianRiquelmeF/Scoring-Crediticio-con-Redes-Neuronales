@@ -37,7 +37,7 @@ Se utilizó el **German Credit Data**, compuesto por 1000 observaciones con vari
    - `EarlyStopping`.  
    - `ReduceLROnPlateau`.  
 
-## Librerías Principales**
+## Librerías Principales
     - TensorFlow / Keras
     - Scikit-learn
     - SHAP
@@ -60,11 +60,14 @@ Se utilizó el **German Credit Data**, compuesto por 1000 observaciones con vari
 
 
 #### Curvas de entrenamiento (Loss y Accuracy)
-![Curva Loss](curva_loss.png)
-![Curva Accuracy](curva_accuracy.png)
+<img width="500" height="300" alt="curva_loss" src="https://github.com/user-attachments/assets/6d488fd4-7a64-473b-90a1-18acebd9dae2" />
+
+<img width="500" height="300" alt="curva_accuracy" src="https://github.com/user-attachments/assets/4abd94c7-ee1c-417f-9501-697ac8d7497d" />
+
 
 #### Explicación con LIME para un cliente
-![Explicación LIME](lime_explicacion.png)
+<img width="500" height="797" alt="lime_explicacion" src="https://github.com/user-attachments/assets/5120db78-8d65-45a5-a0dd-a1a3ad30becf" />
+
 
 ---
 
@@ -72,6 +75,9 @@ Se utilizó el **German Credit Data**, compuesto por 1000 observaciones con vari
 Se utilizó **LIME** para entender qué variables influyen en la predicción de cada cliente.  
 Ejemplo: un cliente con **93% probabilidad de crédito bueno** se explica por factores como **historial de pagos** y **duración del crédito**.  
 
+---
+## Conclusión  
+El proyecto demuestra cómo aplicar **Deep Learning moderno (ResNet)** en problemas de **scoring crediticio**, mejorando rendimiento frente a modelos simples y ofreciendo explicaciones interpretables con LIME.  
 ---
 
 ## Cómo usar  
@@ -85,11 +91,6 @@ Ejemplo: un cliente con **93% probabilidad de crédito bueno** se explica por fa
    pip install -r requirements.txt
    ```
 3. Ejecutar el notebook en Jupyter o VSCode.  
-
----
-
-## Conclusión  
-El proyecto demuestra cómo aplicar **Deep Learning moderno (ResNet)** en problemas de **scoring crediticio**, mejorando rendimiento frente a modelos simples y ofreciendo explicaciones interpretables con LIME.  
 
 ---
 > Proyecto desarrollado como parte de portafolio de Machine Learning avanzado.
