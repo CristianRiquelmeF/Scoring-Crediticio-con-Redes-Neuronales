@@ -81,19 +81,5 @@ Ejemplo: un cliente con **93% probabilidad de crédito bueno** se explica por fa
 El proyecto demuestra cómo aplicar **Deep Learning moderno (ResNet)** en problemas de **scoring crediticio**, mejorando rendimiento frente a modelos simples y ofreciendo explicaciones interpretables con LIME.  
 
 ---
-
-## Cómo usar  
-1. Clonar el repositorio:  
-   ```bash
-   git clone https://github.com/usuario/scoring-crediticio-dnn.git
-   cd scoring-crediticio-dnn
-   ```
-2. Instalar dependencias:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Ejecutar el notebook en Jupyter o VSCode.  
-
----
 > Proyecto desarrollado como parte de portafolio de Machine Learning avanzado.
 ---
