@@ -62,7 +62,7 @@ Se utilizó el **German Credit Data**, compuesto por 1000 observaciones con vari
 
 #### Comparación de modelos
 
-<img width="1380" height="980" alt="image" src="https://github.com/user-attachments/assets/c135770a-3cef-4c18-b421-2dd4b87d2e4b" />
+<img width="500" height="980" alt="image" src="https://github.com/user-attachments/assets/c135770a-3cef-4c18-b421-2dd4b87d2e4b" />
 
 
 #### Explicación con LIME para un cliente
