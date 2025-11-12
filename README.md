@@ -3,7 +3,8 @@
 # Sistema Inteligente de Scoring Crediticio con Redes Neuronales
 
 ## Resumen  
-Las entidades financieras se enfrentan constantemente al desafío de decidir si otorgan o no un crédito. Un error en esta decisión puede significar una pérdida económica para la institución o una exclusión injusta para un cliente. Este proyecto implementa un modelo de **scoring crediticio** utilizando el dataset **German Credit Data**. El objetivo es predecir si un cliente representa un **buen** o **mal riesgo de crédito**, aplicando técnicas de **Machine Learning moderno** para mejorar precisión, robustez y explicabilidad. Además se aborda el desafío de la "caja negra", utilizando técnicas de Explicabilidad de IA (XAI) como LIME para que las decisiones del modelo sean transparentes y auditables por un equipo de riesgo bancario.
+Las entidades financieras se enfrentan constantemente al desafío de decidir si otorgan o no un crédito. Un error en esta decisión puede significar una pérdida económica para la institución o una exclusión injusta para un cliente. Este proyecto implementa un modelo de scoring crediticio utilizando el dataset German Credit Data. El objetivo es predecir si un cliente representa un buen o mal riesgo de crédito, aplicando técnicas avanzadas de Deep Learning (específicamente, Redes Neuronales Densas y arquitecturas ResNet) para mejorar la precisión y robustez.
+Dado que los modelos de Deep Learning actúan como una "caja negra", un pilar de este proyecto es la Explicabilidad de IA (XAI). Se utilizan técnicas como LIME para asegurar que las decisiones del modelo sean transparentes, interpretables y auditables por un equipo de riesgo bancario.
 
 El notebook incluye:  
 - **Análisis exploratorio de datos (EDA)**.  
