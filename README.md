@@ -50,9 +50,9 @@ Se utilizó el **German Credit Data**, compuesto por 1000 observaciones con vari
 
 ## Resultados  
 
-- El **modelo ResNet** superó a la DNN simple en métricas de precisión y recall.  
 - SMOTE permitió balancear el dataset, reduciendo sesgos hacia la clase mayoritaria.  
-- Se logró una clasificación confiable de clientes de buen/mal crédito.  
+- Los experimentos demuestran que, para este conjunto de datos, el modelo DNN Simple (Accuracy: 76%) superó en rendimiento general al modelo ResNet (Accuracy: 69%).Más importante aún para el contexto del negocio (riesgo bancario), la DNN Simple mostró una capacidad significativamente mayor para identificar correctamente a los clientes de "Crédito Malo" (Clase 1), alcanzando un Recall de 0.78 (frente al 0.70 del ResNet).
+- Dado que el costo de un "Falso Negativo" (aprobar un crédito malo) es muy alto, el modelo DNN Simple se perfila como la solución más robusta y efectiva para este problema. Este modelo sería el candidato ideal para ser auditado en detalle con LIME antes de un despliegue productivo.
 
 ### Ejemplo de gráficos incluidos en el notebook:
 
@@ -60,10 +60,9 @@ Se utilizó el **German Credit Data**, compuesto por 1000 observaciones con vari
 <img width="500" height="300" alt="distribucion_target" src="https://github.com/user-attachments/assets/1ee33723-4c6d-4674-a3f3-1e7936d32f79" />
 
 
-#### Curvas de entrenamiento (Loss y Accuracy)
-<img width="500" height="300" alt="curva_loss" src="https://github.com/user-attachments/assets/6d488fd4-7a64-473b-90a1-18acebd9dae2" />
+#### Comparación de modelos
 
-<img width="500" height="300" alt="curva_accuracy" src="https://github.com/user-attachments/assets/4abd94c7-ee1c-417f-9501-697ac8d7497d" />
+<img width="1380" height="980" alt="image" src="https://github.com/user-attachments/assets/c135770a-3cef-4c18-b421-2dd4b87d2e4b" />
 
 
 #### Explicación con LIME para un cliente
@@ -79,7 +78,7 @@ Ejemplo: un cliente con **93% probabilidad de crédito bueno** se explica por fa
 ---
 
 ## Conclusión  
-El proyecto demuestra cómo aplicar **Deep Learning moderno (ResNet)** en problemas de **scoring crediticio**, mejorando rendimiento frente a modelos simples y ofreciendo explicaciones interpretables con LIME.  
+Los resultados muestran que el modelo DNN Simple alcanzó un desempeño general superior al modelo ResNet, pero en conjunto, los experimentos demuestran que las redes neuronales profundas pueden ser una alternativa viable para el scoring crediticio, combinando precisión aceptable y explicabilidad mediante herramientas XAI como LIME.
 
 ---
 > Proyecto desarrollado como parte de portafolio de Machine Learning avanzado.
